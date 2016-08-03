@@ -60,7 +60,8 @@ c）此外，node_modules文件夹，是为Node.js存放和管理npm包资源，
 a) 命令行执行cd SeeMyGoProduct,路径切换到项目主目录
 b) 命令行执行react-native run-android进行加载运行android 应用。
 c) 使用编辑器进行打开和修改index.android.js文件，接着通过菜单按钮选择Reload JS来进行刷新修改
-七、管理React Native库的版本
+
+#七、管理React Native库的版本
        在开发中，会经常的去控制React Native的版本库，得以适配各种条件下的开发，那该如何查看、控制ReactNative的版本呢？
 
 7.1 查看本地的React Native的版本

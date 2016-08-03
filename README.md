@@ -10,7 +10,7 @@
   sudo chown -R `whoami` /usr/local
   
 1.2  安装npm 和 Node.js
-      Node.js最好安装4.0及其以上更高版本，node安装成功后npm自动也就有了，直接下载安装Node.js，网址：https://nodejs.org/en/download/ （资料中已有）。
+      Node.js最好安装4.0及其以上更高版本，node安装成功后npm自动也就有了，直接下载安装Node.js，网址：https://nodejs.org/en/download/ 。
       
 1.3  安装WatchMan
 该插件用于监控bug文件和文件变化 ，并且可以触发指定的操作

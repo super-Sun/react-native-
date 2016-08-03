@@ -11,6 +11,7 @@
   
 1.2  安装npm 和 Node.js
       Node.js最好安装4.0及其以上更高版本，node安装成功后npm自动也就有了，直接下载安装Node.js，网址：https://nodejs.org/en/download/ （资料中已有）。
+      
 1.3  安装WatchMan
 该插件用于监控bug文件和文件变化 ，并且可以触发指定的操作
 安装方式
@@ -56,6 +57,7 @@ c）此外，node_modules文件夹，是为Node.js存放和管理npm包资源，
 #六、运行工程文件
       不管是 iOS 还是 Android，在开发调试阶段，都需要在 Mac 上启动一个 HTTP 服务，称为Debug Server，默认运行在 8081 端口，APP 通 Debug Server 加载 js。
 6.1 打开Xcode，运行你的第一个React Native创建的iOS应用
+
 6.2 把React Native创建的应用跑在Android上
 a) 命令行执行cd SeeMyGoProduct,路径切换到项目主目录
 b) 命令行执行react-native run-android进行加载运行android 应用。

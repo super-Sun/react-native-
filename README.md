@@ -39,8 +39,11 @@ Xcode 7 及其以上更高版本
        Genymotion是一个第三方模拟器，它比Google官方的模拟器更易设置且性能更好。但是，它只针对个人用户免费。
        1）下载并安装Genymotion
       https://www.genymotion.com/
+      
        2）打开Genymotion,如果你尚未安装VirtualBox,它有可能会提示你安装
+       
        3）创建一个模拟器并启动
+       
        4）按下⌘+M可以打开开发者菜单(在安装并启动了React Native应用之后)
 
 #五、 React Native的第一个应用
@@ -50,18 +53,22 @@ Xcode 7 及其以上更高版本
      npm config set registry https://registry.npm.taobao.org
      npm config set disturl https://npm.taobao.org/dist        
 5.2目录结构分析:
-a）默认生成android和ios两个平台的原生项目；
-b）其中，index.android.js和index.ios.js文件为Android和iOS的空壳应用文件；
-c）此外，node_modules文件夹，是为Node.js存放和管理npm包资源，也包含React Native框架文件。
+       a）默认生成android和ios两个平台的原生项目；
+       
+       b）其中，index.android.js和index.ios.js文件为Android和iOS的空壳应用文件；
+       
+       c）此外，node_modules文件夹，是为Node.js存放和管理npm包资源，也包含React Native框架文件。
 
 #六、运行工程文件
       不管是 iOS 还是 Android，在开发调试阶段，都需要在 Mac 上启动一个 HTTP 服务，称为Debug Server，默认运行在 8081 端口，APP 通 Debug Server 加载 js。
 6.1 打开Xcode，运行你的第一个React Native创建的iOS应用
 
 6.2 把React Native创建的应用跑在Android上
-a) 命令行执行cd SeeMyGoProduct,路径切换到项目主目录
-b) 命令行执行react-native run-android进行加载运行android 应用。
-c) 使用编辑器进行打开和修改index.android.js文件，接着通过菜单按钮选择Reload JS来进行刷新修改
+       a) 命令行执行cd SeeMyGoProduct,路径切换到项目主目录
+       
+       b) 命令行执行react-native run-android进行加载运行android 应用。
+       
+       c) 使用编辑器进行打开和修改index.android.js文件，接着通过菜单按钮选择Reload JS来进行刷新修改
 
 #七、管理React Native库的版本
        在开发中，会经常的去控制React Native的版本库，得以适配各种条件下的开发，那该如何查看、控制ReactNative的版本呢？
@@ -80,7 +87,7 @@ c) 使用编辑器进行打开和修改index.android.js文件，接着通过菜�
      https://www.npmjs.com/package/react-native
     命令行查询
       npm info react-native
-      7.4 升级或者降级npm包的版本
+7.4 升级或者降级npm包的版本
     npm install --save react-native@0.18
 
 7.5 更新项目templates文件（可选）
@@ -88,8 +95,8 @@ c) 使用编辑器进行打开和修改index.android.js文件，接着通过菜�
      命令行查询
       react-native upgrade
 #八、WebStom设置React Native代码提示
-    8.1  从gitHub上下载xml插件
-     git clone https://github.com/virtoolswebplayer/ReactNative-LiveTemplate  
+8.1  从gitHub上下载xml插件
+       git clone https://github.com/virtoolswebplayer/ReactNative-LiveTemplate  
 
-     8.2  安装
-     将ReactNative.xml复制到 ~/Library/Preferences/WebStorm10/templates ，然后重启 WebStrom
+8.2  安装
+       将ReactNative.xml复制到 ~/Library/Preferences/WebStorm10/templates ，然后重启 WebStrom

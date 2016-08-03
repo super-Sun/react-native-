@@ -37,11 +37,11 @@ Xcode 7 及其以上更高版本
 
 4.1  安装Genymotion
        Genymotion是一个第三方模拟器，它比Google官方的模拟器更易设置且性能更好。但是，它只针对个人用户免费。
-1）下载并安装Genymotion
+       1）下载并安装Genymotion
       https://www.genymotion.com/
-2）打开Genymotion,如果你尚未安装VirtualBox,它有可能会提示你安装
-3）创建一个模拟器并启动
-4）按下⌘+M可以打开开发者菜单(在安装并启动了React Native应用之后)
+       2）打开Genymotion,如果你尚未安装VirtualBox,它有可能会提示你安装
+       3）创建一个模拟器并启动
+       4）按下⌘+M可以打开开发者菜单(在安装并启动了React Native应用之后)
 
 #五、 React Native的第一个应用
 5.1 执行命令,生成一个工程
